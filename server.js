@@ -24,6 +24,8 @@ const server = new ApolloServer({
   // here it takes the req body and forward it to the context
   // so we can access it from the context (ex: createPost mutation)
   context: ({ req }) => ({ req, pubsub }),
+  introspection: true,
+  playground: true,
 });
 
 // connect to mongoose
