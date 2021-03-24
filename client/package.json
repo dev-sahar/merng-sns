@@ -44,5 +44,5 @@
     ]
   },
   "license": "MIT",
-  "proxy": "http://localhost:5000"
+  "proxy": "https://merng-sns-ss.herokuapp.com/"
 }
